@@ -37,3 +37,17 @@ const reverseVowels = (s) => {
 
   return result.join('')
 }
+
+
+
+digits = [1, 2, 3];
+
+function addOne(digits) {
+  digits = digits.join('')
+  digits = Number(digits) + 1;
+  digits = Array.from(String(digits), Number);
+
+  return digits;
+}
+
+console.log(addOne(digits))
